@@ -20,6 +20,6 @@ role.tf contains iam roles
 
 and output.tf to output the created load balancer
 
-For deployment pipeline a github action workflow (aws.yml) and and task-defination.json is created. 
+For deployment pipeline a github action workflow (aws.yml) and and task-defination.json is added to the repo. 
 
 The aws access and secret are passed using action secret. the url to the load balancer is  
